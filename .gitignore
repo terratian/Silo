@@ -1,0 +1,13 @@
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Local Indexes, Caches, and Databases
+*.db
+*.sqlite
+*.log
+node_modules/
+
+# Environment or Personal Config Files
+.env
+config.local.json
