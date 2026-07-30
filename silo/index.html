@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silo // Local Archive Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="silo-container">
+        <header class="silo-header">
+            <h1>SILO</h1>
+            <p class="subtitle">Local Archive & Document Search Engine</p>
+        </header>
+
+        <main class="silo-main">
+            <div class="search-bar-wrapper">
+                <input type="text" id="searchInput" placeholder="Search local archives, notes, and datasets..." autocomplete="off">
+                <button id="searchBtn">Query</button>
+            </div>
+
+            <div id="resultsContainer" class="results-grid">
+                <!-- Search output rows will dynamically inject here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
